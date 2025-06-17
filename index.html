@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GenAI Figma Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:;base64,="> <!-- Added to suppress favicon 404 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+</head>
+<body>
+  <div id="controls">
+    <input type="text" id="prompt" placeholder="Describe your UI...">
+    <button onclick="sendPrompt()">Generate UI</button>
+  </div>
+  <canvas id="canvas" width="1200" height="800"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
